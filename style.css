@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family:"Poppins", sans-serif;
+}
+.background_image{
+    opacity: 40%;
+}
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 5%;
+    z-index: 10;
+}
+
+.navbar_netflix {
+    height: 100%;
+    width: 125px; 
+}
+
+.netflix_logo {
+    max-height: 100%; 
+    max-width: 100%; 
+}
+
+.navbar_nav_items{
+    display: flex;
+    gap: 10px;
+}
+
+.language_drop_down{
+    background: transparent;
+    border: none;
+    color: white;
+}
+
