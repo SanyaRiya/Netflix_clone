@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix India - Watch TV shows Online, Watch Movies Online</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
 </head>
 <body>
-    <img src="images\background.jpg" alt="" class="background_image">
+    
     <header>
         <nav class="navbar">
             <div class="navbar_netflix">
@@ -17,7 +18,7 @@
             <div class="navbar_nav_items">
                 <div class="nav_item">
                     <div class="dropdown_container">
-                        <i class="fa-regular fa-globe"></i>
+                        <i class="fa-solid fa-globe"></i>
                         <select name="language" id="languageSelect" class="language_drop_down">
                             <option value="english" selected>English</option>
                             <option value="hindi">Hindi</option>
@@ -32,8 +33,52 @@
         </nav>
     </header>
 
+    <main>
+        <section class="hero">
+            <div class="hero_bg_img_cont">
+                <img src="images\background.jpg" alt="" class="hero_bg_img">
+            </div>
+            <div class="hero_bg_overlay"></div>
+            <div class="hero_card">
+                <h1 class="hero_title">
+                    Unlimited movies, TV shows and more <br>
+                </h1>
+                <h3 class="hero_subtitle">
+                    Watch anywhere. Cancel anytime. <br> <br> Ready to watch? Enter your email to create or restart your membership. <br><br>
+                </h3>
+                <nobr><input type="email" placeholder="Email Address" class="email">
+                <button class="get_started">Get Started ></button></nobr>
+            </div>
+        </section>
+        <section class="style_cards">
+            <div class="card1">
+                <div class="desc1">
+                    <h1>Enjoy on your TV</h1><br>
+                    <h3>Watch on smart TVs, PlayStation, Xbox, <br> Chromecast, Apple TV, Blu-ray players and <br> more.</h3>
+                </div>
+                <img src="images\card1.png" alt="" class="image1">
+                <img src="images\HtaF.gif" alt="" class="video1" >
+            </div>
+            <div class="card2">
+                <img src="images\card2.jpg" alt="">
+                <div class="desc2">
+                    <h1>Download your <br>shows to watch <br> offline</h1> 
+                    <h3>Save your favourites easily and always have <br>something to watch.
+                    </h3>
+                </div>
+            <div class="card3">
+                <div class="desc3">
+                    
+                    <h1>Watch everywhere</h1>
+                    <h3>Stream unlimited movies and TV shows on <br>your phone, tablet, laptop, and TV.</h3>
+                </div>
+                <img src="images\card3.png" alt="">
+            </div>
+            </div>
+        </section>
+    </main>
 
     <link rel="stylesheet" href="script.js">
-    <script src="https://kit.fontawesome.com/6238c00ca3.js" crossorigin="anonymous"></script>
+    
 </body>
 </html>
